@@ -12,9 +12,11 @@ import static com.codeborne.selenide.Selenide.open;
 
 class DeliveryTest {
 
+
     @AfterAll
     static void tearDownAll() {
     }
+
     @BeforeEach
     void setup() {
         open("http://localhost:9999");
